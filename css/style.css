@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* -------------
+universal styles 
+----------------*/
 body{
     width: 100%;
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
+/* ----------------
+logo and nav styles 
+------------------*/
 .logo-nav{
     width: 100%;
     height: 100px;
@@ -33,4 +39,76 @@ ul li{
     font-size: 16px;
     line-height: 24px;
     color: #151517;
+}
+/* ----------------
+main> intro section 
+------------------*/
+main{
+    width: 100%;
+}
+.intro{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+}
+.text-intro{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 165px;
+}
+#hay{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #828282;
+}
+.text-intro h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0px;
+}
+#name{
+    color: #EEBF63;
+}
+.text-intro h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 0px;
+}
+.text-intro img{
+    width: 280px;
+    height: 19px;
+    padding-top: 15px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+}
+.social p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #828282;
+}
+.social p i{
+    text-decoration: none;
+    color: #828282;
+    font-size: 32px;
+}
+.photo-intro{
+    width: 60%;
+    text-align: right;
+    margin-right: 165px;
+}
+.photo-intro img{
+    width: 470px;
+    height: 455px;
 }
